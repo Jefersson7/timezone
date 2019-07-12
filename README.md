@@ -15,7 +15,7 @@ Para instalar los paquetes, después de instalados, debe correr:
 Para levantar el servidor en modo desarrollo.<br>
 Para ejecutar el servidor, use una aplicación como Postman o similar y mediante un método post ejecutar el siguiente query: <br>
 `http:\\localhost:3000?time={hora_local}&zone={zona}` <br>
-Donde zona es un numero entre -16 y 16, que genera el siguiente response:
+Donde zona es un numero entre -15 y 15, que genera el siguiente response:
 
 ``` javascript
 {
